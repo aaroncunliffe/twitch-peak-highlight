@@ -14,8 +14,6 @@ video_file_path = "resources/hob1.mp4"
 # Load audio data
 audio_data, sr = librosa.load(video_file_path, sr=None, offset=offset, duration=120.0)
 
-print(len(audio_data))
-exit()
 # Other variables
 threshold = 0.70                    # Sound threshold
 clip_bounds = 2.0                   # Time either side of the loud portion
